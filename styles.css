@@ -1,6 +1,10 @@
+.hero-container {
+    position: relative;
+    height: 100vh;
+}
 .hero-image {
     background-image: url('hero image.jpg');
     background-size: cover;
     background-position: center;
-    height: 60vh; /* Adjust the height as needed */
+    height: 100%;
 }
