@@ -3,6 +3,36 @@ html, body {
     padding: 0;
     overflow-x: hidden; /* Prevent horizontal scroll */
 }
+
+.navbar {
+    background-color: #a2c4c9; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 10px 0; /* Add some padding */
+}
+
+/* Center the navigation links */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* Style the navigation links */
+.nav-links li {
+    margin-right: 20px; /* Add space between links */
+}
+.nav-links a {
+    color: #fff; /* Light text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth color transition */
+}
+/* Change link color on hover */
+.nav-links a:hover {
+    color: #fedc97; /* Change color to gold on hover */
+}
+
 .hero-container {
     position: relative;
     height: 100vh;
@@ -116,7 +146,7 @@ button:hover {
 }
 
 .accordion {
-    background-color: #eee;
+    background-color: #fffefe;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -127,7 +157,7 @@ button:hover {
     transition: background-color 0.4s;
 }
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #fedc97;
 }
 /* Style the accordion panel. Note: hidden by default */
 .panel {
@@ -157,35 +187,23 @@ button:hover {
     font-family: Arial, sans-serif;
     font-size: 14px;
 }
-
 .footer-left {
     flex: 1;
 }
-
 .footer-center {
     flex: 2;
     text-align: center;
 }
-
 .footer-right {
     flex: 1;
     text-align: right;
 }
-
-.tagline {
-    font-style: italic;
-    color: #fff;
-    margin-top: 10px;
-}
-
 .contact-info {
     margin-bottom: 10px;
 }
-
 .social-links {
     margin-top: 10px;
 }
-
 .social-icon {
     display: inline-block;
     width: 30px;
@@ -195,19 +213,15 @@ button:hover {
     text-align: center;
     line-height: 30px;
     margin-right: 10px;
-    color: #a2c4c9; /* Light blue */
+    color: #a2c4c9; 
 }
-
 .social-icon:hover {
     background-color: #ccc;
 }
-
 .footer-right p {
     margin-top: 10px;
     font-size: 12px;
 }
-
 #current-year {
     font-weight: bold;
 }
-
