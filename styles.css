@@ -147,4 +147,67 @@ button:hover {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a2c4c9; /* Light blue */
+    color: #fff; /* White text */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-center {
+    flex: 2;
+    text-align: center;
+}
+
+.footer-right {
+    flex: 1;
+    text-align: right;
+}
+
+.tagline {
+    font-style: italic;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    color: #a2c4c9; /* Light blue */
+}
+
+.social-icon:hover {
+    background-color: #ccc;
+}
+
+.footer-right p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#current-year {
+    font-weight: bold;
+}
 
