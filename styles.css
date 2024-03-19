@@ -114,3 +114,37 @@ button:hover {
         width: calc(33.33% - 20px); /* 3 columns on desktop */
     }
 }
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: background-color 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 10px;
+    background-color: white;
+    color: #444;
+    display: none;
+    overflow: hidden;
+}
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    margin-inline: 10px;
+}
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
