@@ -9,7 +9,6 @@ html, body {
     color: #fff; /* Light text color */
     padding: 10px 0; /* Add some padding */
 }
-
 /* Center the navigation links */
 .nav-links {
     display: flex;
@@ -27,6 +26,7 @@ html, body {
     text-decoration: none; /* Remove underline from links */
     font-weight: bold; /* Bold text */
     transition: color 0.3s; /* Smooth color transition */
+    font-family: 'Open Sans', sans-serif;
 }
 /* Change link color on hover */
 .nav-links a:hover {
@@ -50,6 +50,7 @@ html, body {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
+    font-family: 'Merriweather', sans-serif;
 }
 .hero-text h1 {
     font-size: 3em;
@@ -65,6 +66,7 @@ button {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: 'Merriweather', sans-serif;
 }
 button:hover {
     background-color: #e08b8b;
@@ -83,6 +85,7 @@ button:hover {
 .content p {
     font-size: 1.2em;
     color: #616163;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card-container {
@@ -107,6 +110,7 @@ button:hover {
 }
 .card-content {
     padding: 10px;
+
 }
 .subheader {
     font-size: 1.2em;
@@ -120,6 +124,7 @@ button:hover {
 .paragraph {
     font-size: 1.1em;
     color: #555;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Media queries for responsiveness */
@@ -155,6 +160,7 @@ button:hover {
     border: none;
     outline: none;
     transition: background-color 0.4s;
+    font-family: 'Merriweather', sans-serif;
 }
 .active, .accordion:hover {
     background-color: #fedc97;
@@ -166,6 +172,7 @@ button:hover {
     color: #444;
     display: none;
     overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
 }
 .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
@@ -186,6 +193,7 @@ button:hover {
     padding: 20px;
     font-family: Arial, sans-serif;
     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 .footer-left {
     flex: 1;
