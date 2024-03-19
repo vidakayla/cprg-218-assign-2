@@ -39,40 +39,78 @@ button {
 button:hover {
     background-color: #e08b8b;
 }
-.card-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
+
+.content {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fffefe;
+}
+.content h2 {
+    font-size: 2em;
+    color: #a2c4c9;
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 1.2em;
+    color: #616163;
 }
 
+.card-container {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
 .card {
-    width: 30%;
-    padding: 20px;
+    width: 45%;
+    margin-bottom: 10px; /* Increase the margin between cards */
+    margin-inline: 10px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    background-color: #fff;
+    overflow: hidden;
 }
-
 .card img {
     width: 100%;
-    border-radius: 5px;
-    margin-bottom: 15px;
+    border-radius: 10px;
 }
-
-.card1 {
-    background-color: #fedc97;
+.card-content {
+    padding: 10px;
 }
-
-.card2 {
-    background-color: #a2c4c9;
+.subheader {
+    font-size: 1.2em;
+    color: #888;
 }
-
-.card3 {
-    background-color: #e08b8b;
-}
-
-.card p {
-    font-size: 1.1em;
+.header {
+    font-size: 1.5em;
     color: #333;
+    margin-bottom: 10px;
+}
+.paragraph {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Media queries for responsiveness */
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .card {
+        width: 100%;
+    }
+}
+
+/* Tablet (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .card {
+        width: calc(50% - 20px); /* 2 columns on tablet */
+    }
+}
+
+/* Desktop (992px and above) */
+@media (min-width: 992px) {
+    .card {
+        width: calc(33.33% - 20px); /* 3 columns on desktop */
+    }
 }
