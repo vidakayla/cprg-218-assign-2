@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0cfc2e7800.js" crossorigin="anonymous"></script>
-  </head>
+</head>
 <body>
     <header class="navbar">
         <nav>
@@ -51,8 +52,8 @@
         </section>
         <section class="cards">
             <ul class ="card-container">
-                <ul class="card">
-                    <img src="cat of the week.jpg" alt="catoftheweek">
+                <li class="card">
+                    <img src="catoftheweek.jpg" alt="catoftheweek">
                     <div class="card-content">
                       <h3 class="subheader">
                         Cat of the Week
@@ -64,9 +65,9 @@
                         He flies high like Appa. Watch out for his air-bud moves!
                       </p>
                     </div>
-                </ul>
-                <ul class="card">
-                    <img src="tea of the month.jpg" alt="teaofthemonth">
+                  </li>
+                <li class="card">
+                    <img src="teaofthemonth.jpg" alt="teaofthemonth">
                     <div class="card-content">
                       <h3 class="subheader">
                         Tea of the Month
@@ -78,11 +79,12 @@
                         A bright and delicate blend for the spring season.
                       </p>
                     </div>
-                </ul>
+                  </li>
             </ul>
         </section>
         <section class="accordion-section">
-            <button class="accordion">Are all cats up for adoption?</button>
+          <h2 class="accordion-title"> Frequently Asked Questions</h2>
+          <button class="accordion">Are all cats up for adoption?</button>
             <div class="panel">
               <p>Yes! All of our cats are available for adoption through our partnering animal shelter.  We firmly encourage responsible pet ownership. </p>
             </div>
@@ -103,10 +105,10 @@
                     Email: info@catnipandchamomile.com
                 </p>
                 <div class="social-links">
-                  <span style="font-size: 3em; color: whitesmoke ">
-                      <i class="fab fa-facebook"></i></a>
-                      <i class="fab fa-twitter"></i></a>
-                      <i class="fab fa-instagram"></i></a>
+                  <span style="font-size: 3em; color: #fedc97 ">
+                      <i class="fab fa-facebook"></i>
+                      <i class="fab fa-twitter"></i>
+                      <i class="fab fa-instagram"></i>
                   </span>
                     <p>&copy; <span id="year"></span> All Rights Reserved.</p>
                 </div>
@@ -114,8 +116,6 @@
         </footer>
     </main>
     <script src="script.js"></script>
+    <script> document.getElementById('year').textContent = new Date().getFullYear(); </script>
 </body>
-<script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-</script>
 </html>

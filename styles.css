@@ -49,7 +49,7 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #fedc97;
     font-family: 'Merriweather', sans-serif;
 }
 .hero-text h1 {
@@ -61,7 +61,7 @@ html, body {
 }
 button {
     background-color: #a2c4c9;
-    color: #fffefe;
+    color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -70,23 +70,26 @@ button {
     font-family: 'Merriweather', sans-serif;
 }
 button:hover {
-    background-color: #e08b8b;
+    background-color: #fedc97;
 }
 
 .content {
     text-align: center;
     padding: 50px 20px;
-    background-color: #fffefe;
+    background-color: #fff;
 }
 .content h2 {
-    font-size: 2em;
+    font-size: 3em;
     color: #a2c4c9;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    font-family: 'Merriweather', sans-serif;
 }
 .content p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #616163;
     font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+    padding-inline: 20px;
 }
 
 .card-container {
@@ -115,16 +118,18 @@ button:hover {
 }
 .subheader {
     font-size: 1.3em;
-    color: #333;
+    color: #a2c4c9;
+    font-family: 'Merriweather', sans-serif;
 }
 .header {
     font-size: 1.1em;
-    color: #333;
+    color: #616163;
     margin-bottom: 10px;
+    font-family: 'Merriweather', sans-serif;
 }
 .paragraph {
     font-size: 1em;
-    color: #555;
+    color: #616163;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -151,9 +156,16 @@ button:hover {
     }
 }
 
+h2.accordion-title {
+    text-align: center;
+    margin-bottom: 15px; /* Adjust spacing as needed */
+    padding-top: 35px;
+    font-weight: bolder; /* Makes the text bolder */
+    font-family: 'Merriweather', sans-serif;
+  }
 .accordion {
-    background-color: #fffefe;
-    color: #444;
+    background-color: #fff;
+    color: #616163;
     cursor: pointer;
     padding: 25px;
     font-size: medium;
@@ -170,8 +182,8 @@ button:hover {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
     padding: 25px;
-    background-color: white;
-    color: #444;
+    background-color: #fff;
+    color: #616163;
     display: none;
     overflow: hidden;
     font-family: 'Open Sans', sans-serif;
@@ -179,7 +191,7 @@ button:hover {
 .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
-    color: #777;
+    color: #616163;
     margin-inline: 10px;
 }
 .active:after {
@@ -225,13 +237,7 @@ button:hover {
     margin-right: 10px;
     color: #a2c4c9; 
 }
-.social-icon:hover {
-    background-color: #ccc;
-}
 .footer-right p {
     margin-top: 10px;
     font-size: 12px;
-}
-#current-year {
-    font-weight: bold;
 }
