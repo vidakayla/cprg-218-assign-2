@@ -5,7 +5,7 @@ html, body {
 }
 
 .navbar {
-    background-color: #a2c4c9; /* Dark background color */
+    background-color: #7e9599; /* Dark background color */
     color: #fff; /* Light text color */
     padding: 30px ; /* Add some padding */
 }
@@ -63,7 +63,7 @@ html, body {
     color: #fff;
 }
 button {
-    background-color: #a2c4c9;
+    background-color: #7e9599;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -73,7 +73,7 @@ button {
     font-family: 'Merriweather', sans-serif;
 }
 button:hover {
-    background-color: #fedc97;
+    background-color: #707d7f;
 }
 
 .content {
@@ -83,7 +83,7 @@ button:hover {
 }
 .content h2 {
     font-size: 3em;
-    color: #a2c4c9;
+    color: #7e9599;
     margin-bottom: 25px;
     font-family: 'Merriweather', sans-serif;
 }
@@ -121,7 +121,7 @@ button:hover {
 }
 .subheader {
     font-size: 1.3em;
-    color: #a2c4c9;
+    color: #7e9599;
     font-family: 'Merriweather', sans-serif;
 }
 .header {
@@ -205,7 +205,7 @@ h2.accordion-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #a2c4c9; /* Light blue */
+    background-color: #7e9599; /* Light blue */
     color: #fff; /* White text */
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -228,17 +228,6 @@ h2.accordion-title {
 }
 .social-links {
     margin-top: 10px;
-}
-.social-icon {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: #fff;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 30px;
-    margin-right: 10px;
-    color: #a2c4c9; 
 }
 .footer-right p {
     margin-top: 10px;
