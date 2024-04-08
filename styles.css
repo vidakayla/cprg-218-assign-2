@@ -41,6 +41,7 @@ html, body {
 
 .hero-image {
     background-image: url('hero image.jpg'); 
+    width: 100%;
     background-size: cover;
     background-position: center;
     height: 100%;    
@@ -233,3 +234,15 @@ h2.accordion-title {
     margin-top: 10px;
     font-size: 12px;
 }
+@media screen and (max-width: 768px) {
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .card {
+      width: 45%;
+      margin-bottom: 20px;
+    }
+  }
+  
