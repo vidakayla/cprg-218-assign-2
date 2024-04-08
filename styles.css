@@ -234,15 +234,8 @@ h2.accordion-title {
     margin-top: 10px;
     font-size: 12px;
 }
-@media screen and (max-width: 768px) {
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
+@media (max-width: 767px) {
     .card {
-      width: 45%;
-      margin-bottom: 20px;
+        width: 100%;
     }
-  }
-  
+}
