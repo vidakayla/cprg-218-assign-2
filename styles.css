@@ -46,7 +46,6 @@ html, body {
     background-size: cover;
     background-position: center;
     height: 100%;    
-    alt: "Dimmed image  of two ladies sitting down having tea with cats on their lap"
 }
 .hero-text {
     position: absolute;
@@ -143,8 +142,16 @@ button:hover {
     font-family: 'Open Sans', sans-serif;
 }
 .video-container {
-    margin: 0 auto; /* Centers the container horizontally */
-    text-align: center; /* Centers the video within the container (optional) */
+    position: relative; /* This might already be there */
+    width: 100%; /* Ensures width fills container */
+    aspect-ratio: 16/9; /* Maintain aspect ratio */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .video-container {
+      height: 100vh; /* Fills viewport height on mobile */
+    }
   }
 /* Mobile (up to 767px) */
 @media (max-width: 767px) {
