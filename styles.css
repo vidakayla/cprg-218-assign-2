@@ -12,10 +12,11 @@ html, body {
 /* Center the navigation links */
 .nav-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 /* Style the navigation links */
 .nav-links li {
@@ -62,6 +63,11 @@ html, body {
     font-size: 5em;
     margin-bottom: 0.5em;
     color: #fff;
+}
+@media (max-width: 768px) {
+    .hero-text h1 {
+      font-size: 2.5em; /* Adjust font size for mobile */
+    }
 }
 button {
     background-color: #344c50;
@@ -136,9 +142,10 @@ button:hover {
     color: #616163;
     font-family: 'Open Sans', sans-serif;
 }
-
-/* Media queries for responsiveness */
-
+.video-container {
+    margin: 0 auto; /* Centers the container horizontally */
+    text-align: center; /* Centers the video within the container (optional) */
+  }
 /* Mobile (up to 767px) */
 @media (max-width: 767px) {
     .card {
@@ -149,14 +156,14 @@ button:hover {
 /* Tablet (768px - 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
     .card {
-        width: calc(50% - 20px); /* 2 columns on tablet */
+        width: calc(50% - 20px); 
     }
 }
 
 /* Desktop (992px and above) */
 @media (min-width: 992px) {
     .card {
-        width: calc(33.33% - 20px); /* 3 columns on desktop */
+        width: calc(33.33% - 20px); 
     }
 }
 
@@ -234,8 +241,4 @@ h2.accordion-title {
     margin-top: 10px;
     font-size: 12px;
 }
-@media (max-width: 767px) {
-    .card {
-        width: 100%;
-    }
-}
+
