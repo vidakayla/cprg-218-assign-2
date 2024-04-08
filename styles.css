@@ -5,7 +5,7 @@ html, body {
 }
 
 .navbar {
-    background-color: #7e9599; /* Dark background color */
+    background-color: #344c50; 
     color: #fff; /* Light text color */
     padding: 30px ; /* Add some padding */
 }
@@ -63,7 +63,7 @@ html, body {
     color: #fff;
 }
 button {
-    background-color: #7e9599;
+    background-color: #344c50;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -83,7 +83,7 @@ button:hover {
 }
 .content h2 {
     font-size: 3em;
-    color: #7e9599;
+    color: #344c50;
     margin-bottom: 25px;
     font-family: 'Merriweather', sans-serif;
 }
@@ -121,7 +121,7 @@ button:hover {
 }
 .subheader {
     font-size: 1.3em;
-    color: #7e9599;
+    color: #344c50;
     font-family: 'Merriweather', sans-serif;
 }
 .header {
@@ -205,7 +205,7 @@ h2.accordion-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7e9599; /* Light blue */
+    background-color: #344c50; /* Light blue */
     color: #fff; /* White text */
     padding: 20px;
     font-family: Arial, sans-serif;
