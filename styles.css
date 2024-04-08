@@ -40,7 +40,7 @@ html, body {
 }
 
 .hero-image {
-    background-image: url('hero image.jpg'); 
+    background-image: url('heroimage.jpg'); 
     width: 100%;
     background-size: cover;
     background-position: center;
