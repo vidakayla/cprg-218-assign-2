@@ -141,32 +141,18 @@ button:hover {
     color: #616163;
     font-family: 'Open Sans', sans-serif;
 }
-.video-container {
-    position: relative; /* This might already be there */
-    width: 100%; /* Ensures width fills container */
-    aspect-ratio: 16/9; /* Maintain aspect ratio */
-  }
-  
-  /* Media query for mobile devices */
-  @media (max-width: 768px) {
-    .video-container {
-      height: 100vh; /* Fills viewport height on mobile */
-    }
-  }
 /* Mobile (up to 767px) */
 @media (max-width: 767px) {
     .card {
         width: 100%;
     }
 }
-
 /* Tablet (768px - 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
     .card {
         width: calc(50% - 20px); 
     }
 }
-
 /* Desktop (992px and above) */
 @media (min-width: 992px) {
     .card {
